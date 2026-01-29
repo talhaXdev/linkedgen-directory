@@ -1,60 +1,15 @@
-import { Metadata } from 'next';
-import { StructuredData } from '../../../components/StructuredData';
-import { Breadcrumbs } from '../../../components/Breadcrumbs';
-import { apiService } from '../../../lib/api-service';
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
-
-interface ToolPageProps {
-  params: { slug: string };
-}
-
-export async function generateMetadata({ params }: ToolPageProps): Promise<Metadata> {
-  const toolResponse = await apiService.getToolBySlug(params.slug);
-  const tool = toolResponse.data;
-  
-  if (!tool) {
-    return {
-      title: 'Tool Not Found',
-      description: 'The requested LinkedIn tool could not be found.',
-    };
-  }
-
-  return {
-    title: `${tool.name} Review | ${tool.pricingModel === 'free' ? 'Free' : `$${tool.priceMin}/mo`} | LinkedGen Directory`,
-    description: `${tool.shortDescription}. Honest review, pricing, features, and alternatives. Rating: ${tool.rating}/5 with ${tool.reviewCount} reviews.`,
-    keywords: [
-      tool.name,
-      `${tool.name} review`,
-      `${tool.name} pricing`,
-      `${tool.name} alternatives`,
-      `LinkedIn ${tool.categorySlug} tools`,
-      'LinkedIn lead generation',
-      'LinkedIn marketing tools'
-    ],
-    openGraph: {
-      title: `${tool.name} Review | LinkedGen Directory`,
-      description: tool.shortDescription,
-      url: `https://linkedgen.directory/tools/${tool.slug}`,
-      images: [
-        {
-          url: tool.logoUrl || '/og-image.jpg',
-          width: 1200,
-          height: 630,
-          alt: `${tool.name} Logo`,
-        },
-      ],
-    },
-    alternates: {
-      canonical: `/tools/${tool.slug}`,
-    },
-  };
-}
-
 'use client';
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { apiService } from '../../../lib/api-service';
+import { notFound } from 'next/navigation';
+import { StructuredData } from '../../../components/StructuredData';
+import { Breadcrumbs } from '../../../components/Breadcrumbs';
+
+interface ToolPageProps {
+  params: { slug: string };
+}
 
 export default function ToolPage({ params }: ToolPageProps) {
   const [tool, setTool] = useState<any>(null);
@@ -215,7 +170,7 @@ export default function ToolPage({ params }: ToolPageProps) {
                 <div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Pros</h2>
                   <ul className="space-y-2">
-                    {tool.pros.map((pro, index) => (
+                    {tool.pros.map((pro: string, index: number) => (
                       <li key={index} className="flex items-start text-sm text-gray-600">
                         <span className="text-green-500 mr-2 mt-1">✓</span>
                         {pro}
@@ -226,7 +181,7 @@ export default function ToolPage({ params }: ToolPageProps) {
                 <div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Cons</h2>
                   <ul className="space-y-2">
-                    {tool.cons.map((con, index) => (
+                    {tool.cons.map((con: string, index: number) => (
                       <li key={index} className="flex items-start text-sm text-gray-600">
                         <span className="text-red-500 mr-2 mt-1">✗</span>
                         {con}

@@ -106,7 +106,11 @@ class ApiService {
   }
 
   async getToolBySlug(slug: string): Promise<ApiResponse<Tool>> {
-    return this.getTools({ slug });
+    const response = await this.getTools({ slug });
+    return {
+      ...response,
+      data: response.tools?.[0] as Tool
+    };
   }
 
   async getFeaturedTools(): Promise<ApiResponse<Tool[]>> {
@@ -127,7 +131,11 @@ class ApiService {
   }
 
   async getCategoryBySlug(slug: string): Promise<ApiResponse<Category>> {
-    return this.fetchApi<Category[]>(`/api/categories?slug=${slug}`);
+    const response = await this.fetchApi<Category[]>(`/api/categories?slug=${slug}`);
+    return {
+      ...response,
+      data: response.categories?.[0] as Category
+    };
   }
 }
 
