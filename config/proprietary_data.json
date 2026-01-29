@@ -1,0 +1,130 @@
+{
+  "directory_id": "linkedgen-dir-main",
+  "display_name": "LinkedIn Lead Generation Tools",
+  "niche": "linkedin-lead-generation",
+  "target_audience": [
+    "Consultants & Coaches",
+    "Agency Owners",
+    "Freelancers",
+    "B2B Sales Leaders",
+    "Growth Marketers"
+  ],
+  "proprietary_data_fields": [
+    {
+      "field_name": "speed_score",
+      "type": "number",
+      "scale": "1-10",
+      "label": "Speed Score",
+      "description": "Chrome extension load time test (1=slow, 10=instant)",
+      "required": true,
+      "how_to_collect": "Install extension in Chrome, open LinkedIn.com, measure load time with DevTools. <1s=10, 1-2s=9, 2-3s=8, 3s+=6"
+    },
+    {
+      "field_name": "feature_matrix",
+      "type": "json",
+      "label": "Feature Matrix",
+      "description": "Comprehensive feature comparison checkboxes",
+      "required": true,
+      "features": [
+        "profile_optimization",
+        "content_generation",
+        "prospecting",
+        "email_finding",
+        "automation",
+        "chrome_extension",
+        "api_available",
+        "free_tier",
+        "one_time_pricing"
+      ]
+    },
+    {
+      "field_name": "human_review",
+      "type": "text",
+      "label": "Human Review",
+      "min_words": 500,
+      "description": "Personal experience using the tool for 2-4 weeks. Include: setup, functionality, pros (3-5), cons (3-5), best for, avoid if, price-to-value",
+      "required": true
+    },
+    {
+      "field_name": "exclusive_deal",
+      "type": "string",
+      "label": "Exclusive Deal",
+      "description": "Affiliate code + discount (e.g., LINKEDGEN20 = 20% off)",
+      "required": false,
+      "example": "LINKEDGEN20 = 20% off first purchase"
+    },
+    {
+      "field_name": "tos_safety_rating",
+      "type": "number",
+      "scale": "1-5",
+      "label": "ToS Safety Rating",
+      "description": "LinkedIn Terms of Service compliance risk rating",
+      "required": true,
+      "scale_legend": {
+        "5": "Completely safe (manual, no automation)",
+        "4": "Safe (LinkedIn-approved API or user-controlled)",
+        "3": "Caution (some automation, moderate risk)",
+        "2": "High risk (aggressive automation)",
+        "1": "Very risky (automated DMs, likely ban)"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "profile-optimization",
+      "name": "Profile Optimization",
+      "slug": "profile-optimization",
+      "description": "Tools to optimize LinkedIn profiles for lead conversion",
+      "keyword": "LinkedIn Profile Optimization Tools",
+      "monthly_searches": 5000
+    },
+    {
+      "id": "content-generation",
+      "name": "Content Generation",
+      "slug": "content-generation",
+      "description": "AI tools to generate LinkedIn posts and content",
+      "keyword": "LinkedIn Post Generator Tools",
+      "monthly_searches": 5000
+    },
+    {
+      "id": "prospecting-outreach",
+      "name": "Prospecting & Outreach",
+      "slug": "prospecting-outreach",
+      "description": "Tools for LinkedIn prospecting, cold outreach, and lead gen",
+      "keyword": "LinkedIn Prospecting Tools",
+      "monthly_searches": 1000
+    },
+    {
+      "id": "data-intelligence",
+      "name": "Data & Intelligence",
+      "slug": "data-intelligence",
+      "description": "Tools for LinkedIn data extraction, company research, prospect intelligence",
+      "keyword": "LinkedIn Data Tools",
+      "monthly_searches": 500
+    },
+    {
+      "id": "automation-workflows",
+      "name": "Automation & Workflows",
+      "slug": "automation-workflows",
+      "description": "LinkedIn automation tools for workflows, drip campaigns, and scaling",
+      "keyword": "LinkedIn Automation Tools",
+      "monthly_searches": 5000
+    },
+    {
+      "id": "full-stack-solutions",
+      "name": "Full-Stack Solutions",
+      "slug": "full-stack-solutions",
+      "description": "Complete LinkedIn tools handling profile, content, and prospecting",
+      "keyword": "All-in-One LinkedIn Tools",
+      "monthly_searches": 500
+    }
+  ],
+  "seo_config": {
+    "primary_keyword": "LinkedIn Lead Generation Tools",
+    "monthly_searches": 5000,
+    "competition": "medium",
+    "meta_title": "Best LinkedIn Lead Generation Tools 2026 | Compare 80+ Solutions",
+    "meta_description": "Compare 80+ LinkedIn lead gen tools with honest verdicts, speed tests, feature matrices. Find the right tool for profile optimization, content generation, and outreach.",
+    "focus_keyphrase": "linkedin lead generation tools"
+  }
+}

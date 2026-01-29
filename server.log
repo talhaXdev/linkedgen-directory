@@ -1,0 +1,97 @@
+
+> linkedgen-dir-main@1.0.0 dev
+> next dev
+
+⚠ `images.domains` is deprecated in favor of `images.remotePatterns`. Please update next.config.js to protect your application from malicious users.
+⚠ Invalid next.config.js options detected: 
+⚠     Unrecognized key(s) in object: 'swcMinify'
+⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3005
+- Network:       http://77.42.86.38:3005
+- Environments: .env.local
+- Experiments (use with caution):
+  ✓ optimizeCss
+  · optimizePackageImports
+
+✓ Starting...
+✓ Ready in 670ms
+ GET /api/tools 200 in 570ms (compile: 540ms, render: 30ms)
+⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/root/directories/directories/linkedgen-dir-main/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+⨯ Error: Cannot find module 'critters'
+Require stack:
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/post-process.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/render.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/module.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/builtin/_error.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/load-default-error-components.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/dev/next-dev-server.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/next.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/lib/start-server.js
+    at ignore-listed frames {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error [ModuleBuildError]: ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/root/directories/directories/linkedgen-dir-main/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+    at ignore-listed frames
+⨯ Error: Cannot find module 'critters'
+Require stack:
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/post-process.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/render.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/module.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/builtin/_error.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/load-default-error-components.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/dev/next-dev-server.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/next.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/lib/start-server.js
+    at ignore-listed frames {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: Cannot find module 'critters'
+Require stack:
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/post-process.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/render.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/module.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/route-modules/pages/builtin/_error.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/load-default-error-components.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/dev/next-dev-server.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/next.js
+- /root/directories/directories/linkedgen-dir-main/node_modules/next/dist/server/lib/start-server.js
+    at ignore-listed frames {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 3.9s (compile: 3.8s, render: 93ms)
+ GET / 500 in 3.9s (compile: 3.8s, render: 94ms)
+[?25h

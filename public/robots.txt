@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://linkedgen.directory/sitemap.xml
+
+# Block admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow search engines to crawl category and tool pages
+Allow: /category/
+Allow: /tool/
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1

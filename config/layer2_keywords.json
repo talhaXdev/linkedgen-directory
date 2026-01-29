@@ -1,0 +1,144 @@
+{
+  "directory_id": "linkedgen-dir-main",
+  "layer2_strategy": "comparison_and_alternatives",
+  "total_estimated_traffic": 130000,
+  "keyword_groups": {
+    "alternatives_pages": {
+      "description": "High-volume 'alternatives to' pages",
+      "estimated_traffic": 105000,
+      "conversion_rate": "5-10%",
+      "pages": [
+        {
+          "slug": "alternatives-to-waalaxy",
+          "keyword": "Waalaxy alternatives",
+          "monthly_searches": 50000,
+          "priority": "HIGHEST",
+          "meta_title": "Top Waalaxy Alternatives 2026 | Save Money, Avoid Risk",
+          "featured_tool": "LinkedAI",
+          "angle": "Safer, cheaper, no automation risk"
+        },
+        {
+          "slug": "alternatives-to-taplio",
+          "keyword": "Taplio alternatives",
+          "monthly_searches": 50000,
+          "priority": "HIGHEST",
+          "meta_title": "Best Taplio Alternatives | DIY Tools for LinkedIn",
+          "featured_tool": "LinkedAI",
+          "angle": "BYOK pricing model, more affordable"
+        },
+        {
+          "slug": "alternatives-to-clay",
+          "keyword": "Clay alternatives",
+          "monthly_searches": 1000,
+          "meta_title": "Clay Alternatives | Data-Driven Lead Gen Tools",
+          "featured_tools": ["Apollo", "Hunter", "LinkedAI"]
+        },
+        {
+          "slug": "alternatives-to-apollo",
+          "keyword": "Apollo alternatives",
+          "monthly_searches": 1000,
+          "meta_title": "Apollo.io Alternatives | B2B Prospecting Tools",
+          "featured_tools": ["Clay", "Hunter", "Instantly", "LinkedAI"]
+        },
+        {
+          "slug": "alternatives-to-instantly",
+          "keyword": "Instantly alternatives",
+          "monthly_searches": 500,
+          "meta_title": "Instantly Alternatives | Cold Email Tools",
+          "featured_tools": ["Clay", "Lemlist", "LinkedAI"]
+        }
+      ]
+    },
+    "direct_comparisons": {
+      "description": "Tool vs Tool comparison pages",
+      "estimated_traffic": 3500,
+      "conversion_rate": "8-12%",
+      "pages": [
+        {
+          "slug": "linkedai-vs-clay",
+          "keyword": "LinkedAI vs Clay",
+          "monthly_searches": 500,
+          "tools": ["linkedai", "clay"]
+        },
+        {
+          "slug": "linkedai-vs-waalaxy",
+          "keyword": "LinkedAI vs Waalaxy",
+          "monthly_searches": 300,
+          "tools": ["linkedai", "waalaxy"]
+        },
+        {
+          "slug": "linkedai-vs-apollo",
+          "keyword": "LinkedAI vs Apollo",
+          "monthly_searches": 300,
+          "tools": ["linkedai", "apollo"]
+        },
+        {
+          "slug": "clay-vs-apollo",
+          "keyword": "Clay vs Apollo",
+          "monthly_searches": 300,
+          "tools": ["clay", "apollo"]
+        },
+        {
+          "slug": "waalaxy-vs-dripify",
+          "keyword": "Waalaxy vs Dripify",
+          "monthly_searches": 200,
+          "tools": ["waalaxy", "dripify"]
+        }
+      ]
+    },
+    "chrome_extension_pages": {
+      "description": "Chrome extension specific pages",
+      "estimated_traffic": 5800,
+      "conversion_rate": "3-4%",
+      "pages": [
+        {
+          "slug": "best-linkedin-chrome-extensions",
+          "keyword": "Best LinkedIn chrome extensions",
+          "monthly_searches": 5000,
+          "meta_title": "Top LinkedIn Chrome Extensions 2026 | 10 Compared",
+          "featured_tool": "LinkedAI"
+        },
+        {
+          "slug": "free-linkedin-chrome-extensions",
+          "keyword": "Free LinkedIn chrome extensions",
+          "monthly_searches": 500,
+          "featured_filter": "free_tier: true"
+        }
+      ]
+    },
+    "best_tools_for_pages": {
+      "description": "Use-case specific 'best tools' pages",
+      "estimated_traffic": 2000,
+      "conversion_rate": "2-3%",
+      "pages": [
+        {
+          "slug": "best-linkedin-tools-under-50",
+          "keyword": "Best LinkedIn tools under $50",
+          "monthly_searches": 300,
+          "filter": "price_max <= 50"
+        },
+        {
+          "slug": "free-linkedin-tools",
+          "keyword": "Free LinkedIn tools",
+          "monthly_searches": 500,
+          "filter": "free_tier = true"
+        },
+        {
+          "slug": "best-linkedin-tools-for-startups",
+          "keyword": "LinkedIn tools for startups",
+          "monthly_searches": 200
+        },
+        {
+          "slug": "best-linkedin-tools-for-agencies",
+          "keyword": "LinkedIn tools for agencies",
+          "monthly_searches": 200
+        },
+        {
+          "slug": "linkedin-tools-with-ai",
+          "keyword": "LinkedIn tools with AI",
+          "monthly_searches": 300
+        }
+      ]
+    }
+  }
+}

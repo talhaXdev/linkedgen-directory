@@ -1,0 +1,354 @@
+=== LinkedIn Tools Import - Tier 3 & 4 ===
+Started: 2026-01-29 11:17:21.900618
+Target: 50 tools (30 Tier 3 + 20 Tier 4)
+
+✓ Database connection established
+
+[1/50] Tier 3 - Processing: Dux-Soup
+  ✓ Successfully added (ID: 19c30655-6a28-4564-a88b-3d7757841594)
+  - Category: automation-workflows
+  - Pricing: freemium
+  - Rating: 4.0/5.0
+  - Safety: 2/5
+
+[2/50] Tier 3 - Processing: TexAu
+  ✓ Successfully added (ID: 03be8fe4-eaea-4012-94b0-c899412ab31c)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.2/5.0
+  - Safety: 3/5
+
+[3/50] Tier 3 - Processing: Heyreach
+  ✓ Successfully added (ID: b488fe7a-70cf-416e-9d88-cc8229b0f734)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.1/5.0
+  - Safety: 3/5
+
+[4/50] Tier 3 - Processing: LinkedIn Helper
+  ✓ Successfully added (ID: 07b10506-31ff-4ce3-942e-102a9a7d03b9)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.0/5.0
+  - Safety: 2/5
+
+[5/50] Tier 3 - Processing: Closely
+  ✓ Successfully added (ID: 102df246-bd59-4f5a-aa89-c6dc6c3849c7)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.2/5.0
+  - Safety: 3/5
+
+[6/50] Tier 3 - Processing: Prospect.io
+  ✓ Successfully added (ID: 39c6bf48-49d6-48f6-bb1c-f32af39a3313)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.3/5.0
+  - Safety: 4/5
+
+[7/50] Tier 3 - Processing: Expandi.io
+  ✓ Successfully added (ID: f984eaf6-c9dd-49fc-af02-224d907623f3)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.4/5.0
+  - Safety: 3/5
+
+[8/50] Tier 3 - Processing: UpLead
+  ✓ Successfully added (ID: 8784948d-d8a2-4e5d-ac82-20c68d05eef0)
+  - Category: data-intelligence
+  - Pricing: subscription
+  - Rating: 4.5/5.0
+  - Safety: 5/5
+
+[9/50] Tier 3 - Processing: Reply.io
+  ✓ Successfully added (ID: 791d3526-d3b0-43ba-a197-decdf615af83)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.4/5.0
+  - Safety: 3/5
+
+[10/50] Tier 3 - Processing: Findymail
+  ✓ Successfully added (ID: a0543b23-45f2-49f9-8f4c-fda0422b698c)
+  - Category: data-intelligence
+  - Pricing: subscription
+  - Rating: 4.3/5.0
+  - Safety: 5/5
+
+[11/50] Tier 3 - Processing: LaGrowthMachine
+  ✓ Successfully added (ID: d89a3dca-b0e3-4efd-bc12-9ce365dfbe34)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.2/5.0
+  - Safety: 2/5
+
+[12/50] Tier 3 - Processing: Closely.ai
+  ✓ Successfully added (ID: 91472ae2-6ca0-4e0c-87d7-07d6fa924103)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.1/5.0
+  - Safety: 3/5
+
+[13/50] Tier 3 - Processing: Evaboot
+  ✓ Successfully added (ID: affb3582-5ec0-47a8-b14c-b0f6f94ed367)
+  - Category: data-intelligence
+  - Pricing: subscription
+  - Rating: 4.4/5.0
+  - Safety: 4/5
+
+[14/50] Tier 3 - Processing: LinkedFusion
+  ✓ Successfully added (ID: 543d7a21-3c07-4014-af01-8cfc7a8e770e)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.0/5.0
+  - Safety: 2/5
+
+[15/50] Tier 3 - Processing: Skrapp.io
+  ✓ Successfully added (ID: 1764d315-f88f-4238-8138-37c56e53d6d0)
+  - Category: data-intelligence
+  - Pricing: freemium
+  - Rating: 4.2/5.0
+  - Safety: 5/5
+
+[16/50] Tier 3 - Processing: SalesLoft
+  ✓ Successfully added (ID: 1121a3a2-23eb-4882-ae7f-c2dd1a4355cb)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.5/5.0
+  - Safety: 4/5
+
+[17/50] Tier 3 - Processing: Outreach.io
+  ✓ Successfully added (ID: 09a7557c-b5d3-437f-9b40-0c70768ed434)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.6/5.0
+  - Safety: 4/5
+
+[18/50] Tier 3 - Processing: Amplemarket
+  ✓ Successfully added (ID: 518d8daf-8c79-4ee3-b5f5-57919020dde0)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.4/5.0
+  - Safety: 3/5
+
+[19/50] Tier 3 - Processing: Klenty
+  ✓ Successfully added (ID: 05a1adb3-3ff1-4ae2-a5d3-82e4e6ad951e)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.3/5.0
+  - Safety: 3/5
+
+[20/50] Tier 3 - Processing: Woodpecker
+  ✓ Successfully added (ID: c627041e-b686-4f34-a160-eb1da8bb1a29)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.4/5.0
+  - Safety: 4/5
+
+[21/50] Tier 3 - Processing: LinkedIn Post Generator AI
+  ✓ Successfully added (ID: cbb69c10-7a11-4f1f-94c0-c813289ef426)
+  - Category: content-generation
+  - Pricing: freemium
+  - Rating: 4.0/5.0
+  - Safety: 5/5
+
+[22/50] Tier 3 - Processing: Taplio
+  ✓ Successfully added (ID: 08cb25fb-2400-4ab9-8e98-6d2a84f22767)
+  - Category: content-generation
+  - Pricing: subscription
+  - Rating: 4.5/5.0
+  - Safety: 5/5
+
+[23/50] Tier 3 - Processing: Shield Analytics
+  ✓ Successfully added (ID: 6577f121-04eb-415e-bafa-32dc0efb9419)
+  - Category: content-generation
+  - Pricing: freemium
+  - Rating: 4.3/5.0
+  - Safety: 5/5
+
+[24/50] Tier 3 - Processing: ContentStudio
+  ✓ Successfully added (ID: 2adefb33-b5eb-43af-905b-541e367aae3a)
+  - Category: content-generation
+  - Pricing: subscription
+  - Rating: 4.2/5.0
+  - Safety: 5/5
+
+[25/50] Tier 3 - Processing: Lempod
+  ✓ Successfully added (ID: c3da60b4-3fe4-433e-b3c2-7314cb0c3ebd)
+  - Category: content-generation
+  - Pricing: freemium
+  - Rating: 3.8/5.0
+  - Safety: 3/5
+
+[26/50] Tier 3 - Processing: Crystalknows
+  ✓ Successfully added (ID: 3b2bb2df-3301-4058-91ea-2008a86cfbd7)
+  - Category: data-intelligence
+  - Pricing: freemium
+  - Rating: 4.1/5.0
+  - Safety: 5/5
+
+[27/50] Tier 3 - Processing: Skylead
+  ✓ Successfully added (ID: 2ae92686-2100-4b53-9362-8b08f8510c7d)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.2/5.0
+  - Safety: 2/5
+
+[28/50] Tier 3 - Processing: Scrab.in
+  ✓ Successfully added (ID: dcd64531-a022-4275-a076-a4c039b58385)
+  - Category: data-intelligence
+  - Pricing: freemium
+  - Rating: 3.9/5.0
+  - Safety: 3/5
+
+[29/50] Tier 3 - Processing: Verse
+  ✓ Successfully added (ID: 571269f5-d8ec-4230-a6f6-b8dd6b02ea44)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 4.0/5.0
+  - Safety: 4/5
+
+[30/50] Tier 3 - Processing: LinkedInBot Pro
+  ✓ Successfully added (ID: a3a452ec-1478-4d98-b7cf-5d0ee080aaa3)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 3.8/5.0
+  - Safety: 1/5
+
+[31/50] Tier 4 - Processing: Linkedin-X
+  ✓ Successfully added (ID: 5cb22336-f1a0-4564-b927-2dbff8238ce6)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 3.5/5.0
+  - Safety: 1/5
+
+[32/50] Tier 4 - Processing: ProspectIn
+  ✓ Successfully added (ID: 8b50539c-6488-4c18-90ab-25bb7f6566b6)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.0/5.0
+  - Safety: 2/5
+
+[33/50] Tier 4 - Processing: GrowthLead
+  ✓ Successfully added (ID: ddd6a68d-2bba-403b-a27d-95b9471c0e05)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.1/5.0
+  - Safety: 2/5
+
+[34/50] Tier 4 - Processing: LinkedInRipper
+  ✓ Successfully added (ID: 31d33b81-101a-4b6a-995b-11f8eff83069)
+  - Category: data-intelligence
+  - Pricing: one-time
+  - Rating: 3.6/5.0
+  - Safety: 1/5
+
+[35/50] Tier 4 - Processing: Recruitin.net
+  ✓ Successfully added (ID: f7369bf6-c1bc-4554-bd1e-3234de9cd3dd)
+  - Category: prospecting-outreach
+  - Pricing: free
+  - Rating: 3.9/5.0
+  - Safety: 5/5
+
+[36/50] Tier 4 - Processing: LinkedIn Profile Scraper Chrome Extension
+  ✓ Successfully added (ID: a958f00c-f41d-4fe0-9533-75fd05ba19ac)
+  - Category: data-intelligence
+  - Pricing: freemium
+  - Rating: 3.7/5.0
+  - Safety: 3/5
+
+[37/50] Tier 4 - Processing: Linked Helper 2
+  ✓ Successfully added (ID: 99a22ed0-d298-488b-bbae-7caf271eb21b)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 4.0/5.0
+  - Safety: 2/5
+
+[38/50] Tier 4 - Processing: Sales Navigator Extractor
+  ✓ Successfully added (ID: 1f7243ad-7efa-42d5-90ec-2142d467bc53)
+  - Category: data-intelligence
+  - Pricing: subscription
+  - Rating: 3.8/5.0
+  - Safety: 3/5
+
+[39/50] Tier 4 - Processing: LeadConnect
+  ✓ Successfully added (ID: 6bbedaa3-8e72-47b3-b3be-d2e65589cce8)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 3.9/5.0
+  - Safety: 2/5
+
+[40/50] Tier 4 - Processing: LinkedIn Post Scheduler
+  ✓ Successfully added (ID: a65dde33-97dc-44d7-b972-81954914306a)
+  - Category: content-generation
+  - Pricing: freemium
+  - Rating: 3.8/5.0
+  - Safety: 5/5
+
+[41/50] Tier 4 - Processing: LinkedInfluencer
+  ✓ Successfully added (ID: cf7dcd88-bb6f-4881-94a8-16f7d7e7af78)
+  - Category: content-generation
+  - Pricing: subscription
+  - Rating: 3.9/5.0
+  - Safety: 5/5
+
+[42/50] Tier 4 - Processing: ProfileMate
+  ✓ Successfully added (ID: f7897d05-6892-4e17-84dc-2ff522a6259b)
+  - Category: profile-optimization
+  - Pricing: freemium
+  - Rating: 4.0/5.0
+  - Safety: 5/5
+
+[43/50] Tier 4 - Processing: LinkedProfile AI
+  ✓ Successfully added (ID: 66e937ac-ce06-4aa0-a151-3b8f47cc5d69)
+  - Category: profile-optimization
+  - Pricing: freemium
+  - Rating: 3.9/5.0
+  - Safety: 5/5
+
+[44/50] Tier 4 - Processing: Connection Machine
+  ✓ Successfully added (ID: b4064880-cdc1-46f8-905f-f5ca715a63cd)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 3.7/5.0
+  - Safety: 2/5
+
+[45/50] Tier 4 - Processing: LeadSpotter
+  ✓ Successfully added (ID: c8fc852f-e429-41a5-8ae7-816a13fe6409)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 3.8/5.0
+  - Safety: 5/5
+
+[46/50] Tier 4 - Processing: Social Selling Index Tracker
+  ✓ Successfully added (ID: 7952c251-39c2-4d85-8474-0170187c8c57)
+  - Category: profile-optimization
+  - Pricing: freemium
+  - Rating: 3.6/5.0
+  - Safety: 5/5
+
+[47/50] Tier 4 - Processing: Inbox Connect
+  ✓ Successfully added (ID: 24a19d26-09e8-4411-907a-9112d8d5d662)
+  - Category: automation-workflows
+  - Pricing: subscription
+  - Rating: 3.9/5.0
+  - Safety: 5/5
+
+[48/50] Tier 4 - Processing: LinkedIn Hashtag Generator
+  ✓ Successfully added (ID: 22d123a1-5217-4845-9928-f4a30ab39322)
+  - Category: content-generation
+  - Pricing: free
+  - Rating: 3.7/5.0
+  - Safety: 5/5
+
+[49/50] Tier 4 - Processing: Profile Viewer Pro
+  ✓ Successfully added (ID: a8e9f42b-339a-4cbe-a664-3bb853794e72)
+  - Category: prospecting-outreach
+  - Pricing: subscription
+  - Rating: 3.5/5.0
+  - Safety: 4/5
+
+
+=== Import Complete ===
+Finished: 2026-01-29 11:17:22.027056
+Success: 49/50
+Errors: 0/50

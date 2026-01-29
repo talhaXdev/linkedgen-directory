@@ -1,0 +1,23 @@
+/* LinkedGen Directory - LinkedIn Lead Generation Tools */
+/* TEAM */
+  Developer: LinkedGen Team
+  Contact: hello@linkedgen.directory
+  Twitter: @LinkedGenDir
+
+/* THANKS */
+  Thanks to all the LinkedIn tool developers who make this directory possible.
+  Special thanks to our beta testers and community feedback.
+
+/* SITE */
+  Standards: HTML5, CSS3, JavaScript ES2022
+  Components: Next.js, React, Tailwind CSS
+  Software: VS Code, GitHub, Vercel
+
+/* TECHNOLOGY */
+  Frontend: Next.js 16, React 19, TypeScript
+  Backend: PostgreSQL, Next.js API Routes
+  Styling: Tailwind CSS, Shadcn UI
+  Deployment: Vercel
+
+/* LAST UPDATED */
+  Date: 2025-01-29
